@@ -1,13 +1,15 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import React from "react";
 
 import { Highlight } from "@/src/components/Highlight";
 import { Paragraph } from "@/src/components/Paragraph";
 import { motion } from "framer-motion";
-import Viewer from "react-viewer";
 import { ImageDecorator } from "react-viewer/lib/ViewerProps";
+
+const Viewer = dynamic(() => import("react-viewer"), { ssr: false });
 
 const images = [
   "https://imgix.datadoghq.com//img/about/presskit/Datadog_Lobby.jpg?dpr=2&auto=format&_gl=1*ta49n*_gcl_aw*R0NMLjE3MjM2MTYyMjYuQ2owS0NRandpT3kxQmhEQ0FSSXNBREd2UW5BamV5UUgtS21XLWpiMTFSeER5d3R2UFdqT1FFV2N1c3l3M1VsLVlZVWw3d09ac0FZMlhSZ2FBbWQ2RUFMd193Y0I.*_gcl_au*MjA4OTEyNjU1My4xNzIxNjk2OTU0*_ga*MTAwODU1ODQ5Mi4xNzIxNjM2Njkx*_ga_KN80RDFSQK*MTcyMzg4Mjg1Mi4yNi4wLjE3MjM4ODI4ODkuMC4wLjE3MDAxMzg3NjQ.",

@@ -4,7 +4,6 @@ import nextMDX from "@next/mdx";
 import remarkGfm from "remark-gfm";
 
 const nextConfig = {
-  output: process.env.NODE_ENV !== "production" ? "standalone" : "export",
   images: {
     domains: ["imgix.datadoghq.com"],
   },

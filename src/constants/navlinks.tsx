@@ -1,4 +1,4 @@
-import { IconBolt, IconCalendarEvent, IconMail, IconMessage2, IconScript } from "@tabler/icons-react";
+import { IconBolt, IconCalendarEvent, IconMessage2, IconScript } from "@tabler/icons-react";
 
 export const navlinks = [
   {
