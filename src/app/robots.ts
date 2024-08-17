@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://datadog-korea-user-group.github.io/sitemap.xml",
+    sitemap: "https://datadogkrug.vercel.app/sitemap.xml",
   };
 }
