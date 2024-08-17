@@ -4,6 +4,7 @@ import Image, { StaticImageData } from "next/image";
 import React, { useState } from "react";
 
 import { Event } from "@/src/types/products";
+import { DiscussionEmbed } from "disqus-react";
 import { motion } from "framer-motion";
 
 import { Heading } from "./Heading";
@@ -89,6 +90,18 @@ export const SingleEvent = ({ event }: { event: Event }) => {
           <path d='M13 6l6 6'></path>
         </svg>
       </a>
+
+      <div className='mt-20'>
+        <DiscussionEmbed
+          shortname='datadogkrug'
+          config={{
+            url: `https://datadogkrug.vercel.app/events/${event.slug}`,
+            identifier: event.slug,
+            language: "ko",
+            title: event.title,
+          }}
+        />
+      </div>
     </div>
   );
 };

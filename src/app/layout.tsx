@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel='icon' type='image/png' sizes='32x32' href={`${prefix}/favicon-32x32.png`} />
         <link rel='icon' type='image/png' sizes='96x96' href={`${prefix}/favicon-96x96.png`} />
         <link rel='icon' type='image/png' sizes='16x16' href={`${prefix}/favicon-16x16.png`} />
-        <link rel='manifest' href={`${prefix}/manifest.json`} crossOrigin='use-credentials' />
+        <link rel='manifest' href={`${prefix}/site.webmanifest`} crossOrigin='use-credentials' />
         <meta name='msapplication-TileColor' content='#ffffff' />
         <meta name='msapplication-TileImage' content={`${prefix}/ms-icon-144x144.png`} />
         <meta name='theme-color' content='#ffffff' />
