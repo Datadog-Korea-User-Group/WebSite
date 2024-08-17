@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 
 import { Badge } from "@/src/components/Badge";
+import { Families } from "@/src/constants/families";
 import { navlinks } from "@/src/constants/navlinks";
 import { prefix } from "@/src/constants/prefix";
 import { socials } from "@/src/constants/socials";
@@ -86,6 +87,22 @@ export const Navigation = ({ setOpen }: { setOpen: React.Dispatch<React.SetState
         >
           <link.icon className={twMerge("h-4 w-4 flex-shrink-0", isActive(link.href) && "text-sky-500")} />
           <span>{link.label}</span>
+        </Link>
+      ))}
+
+      <Heading as='p' className='text-sm md:text-sm lg:text-sm pt-10 px-2'>
+        Family Sites
+      </Heading>
+      {Families.map((family) => (
+        <Link
+          key={family.href}
+          href={family.href}
+          target={"_blank"}
+          className={twMerge(
+            "text-secondary hover:text-primary transition duration-200 flex items-center space-x-2 py-2 px-2 rounded-md text-sm",
+          )}
+        >
+          <span>{`${family.category} : ${family.title}`}</span>
         </Link>
       ))}
     </div>

@@ -4,8 +4,11 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import React from "react";
 
+import { Card, Carousel } from "@/src/components/Carousel";
+import { Heading } from "@/src/components/Heading";
 import { Highlight } from "@/src/components/Highlight";
 import { Paragraph } from "@/src/components/Paragraph";
+import { Families } from "@/src/constants/families";
 import { motion } from "framer-motion";
 import { ImageDecorator } from "react-viewer/lib/ViewerProps";
 
@@ -30,6 +33,7 @@ export default function About() {
   const onChangeIndex = (activeImage: ImageDecorator, index: number) => {
     setImageIndex(index);
   };
+
   return (
     <div>
       <div className='grid grid-cols-2 md:grid-cols-4 gap-10 my-10'>
@@ -86,6 +90,15 @@ export default function About() {
           Thank you for your interest in DatadogKRUG, and we look forward to bringing you more diverse and helpful
           events.
         </Paragraph>
+
+        <Heading as='h2' className='font-black text-lg md:text-xl lg:text-2xl mt-20 mb-4'>
+          Family Sites
+        </Heading>
+        <Carousel
+          items={Families.filter((family) => !family.isOnlySideBar).map((card, index) => (
+            <Card key={card.src} card={card} index={index} />
+          ))}
+        />
       </div>
       <Viewer
         visible={visible}
