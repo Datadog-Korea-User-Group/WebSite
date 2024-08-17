@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import React, { Suspense } from "react";
+import React from "react";
 
 import { Highlight } from "@/src/components/Highlight";
 import { Paragraph } from "@/src/components/Paragraph";
@@ -87,17 +87,15 @@ export default function About() {
           events.
         </Paragraph>
       </div>
-      <Suspense>
-        <Viewer
-          visible={visible}
-          activeIndex={imageIndex}
-          onChange={onChangeIndex}
-          onClose={() => {
-            setVisible(false);
-          }}
-          images={images.map((image, index) => ({ src: image }))}
-        />
-      </Suspense>
+      <Viewer
+        visible={visible}
+        activeIndex={imageIndex}
+        onChange={onChangeIndex}
+        onClose={() => {
+          setVisible(false);
+        }}
+        images={images.map((image, index) => ({ src: image }))}
+      />
     </div>
   );
 }
