@@ -129,7 +129,7 @@ export const Events = [
               Engineering Team)
             </li>
             <li>
-              Topic: <strong>The Evolution of Olive Young's Dashboards Alongside Large-Scale Events</strong>
+              Topic: <strong>The Evolution of Olive Young&apos;s Dashboards Alongside Large-Scale Events</strong>
             </li>
           </ul>
           <p className='mb-4'>
@@ -153,12 +153,12 @@ export const Events = [
             </li>
             <li>The participation fee is used for providing simple meals and operating DatadogKRUG.</li>
             <li>
-              After applying for participation, the event organizers may move you to "Absent" after confirming the
-              payment details.
+              After applying for participation, the event organizers may move you to &quot;Absent&quot; after confirming
+              the payment details.
             </li>
             <li>
-              Once the payment is confirmed, you will be moved to "Attending" on the participant list and your status
-              will be changed to "Payment Completed".
+              Once the payment is confirmed, you will be moved to &quot;Attending&quot; on the participant list and your
+              status will be changed to &quot;Payment Completed&quot;.
             </li>
             <li>
               Please note that the event organizers directly confirm the payment details and change the status, not the
