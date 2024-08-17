@@ -13,6 +13,7 @@ import { isMobile } from "@/src/lib/utils";
 import { Navlink } from "@/src/types/navlink";
 import { IconLayoutSidebarRightCollapse } from "@tabler/icons-react";
 import { AnimatePresence, motion } from "framer-motion";
+import { SyncLoader } from "react-spinners";
 import { twMerge } from "tailwind-merge";
 
 import { Heading } from "./Heading";
