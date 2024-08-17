@@ -10,6 +10,7 @@
     "deploy": "next build && touch ./build/.nojekyll && gh-pages -d out -t true"
   },
   "dependencies": {
+    "@datadog/browser-rum": "^5.23.3",
     "@mapbox/rehype-prism": "^0.9.0",
     "@mdx-js/loader": "^3.0.1",
     "@next/mdx": "^14.2.5",
