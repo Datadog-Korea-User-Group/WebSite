@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
 
 import { DefaultMetadata, DefaultOpenGraph } from "@/src/app/shared-metadata";
-import { Datadog } from "@/src/components/Datadog";
 import { Footer } from "@/src/components/Footer";
+import { Monitoring } from "@/src/components/Monitoring";
 import { Sidebar } from "@/src/components/Sidebar";
 import { prefix } from "@/src/constants/prefix";
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./globals.css";
 
@@ -41,7 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name='msapplication-TileImage' content={`${prefix}/ms-icon-144x144.png`} />
         <meta name='theme-color' content='#ffffff' />
       </head>
-      <Datadog>
+      <Monitoring>
         <body className='flex antialiased h-screen overflow-hidden bg-gray-100'>
           <Sidebar />
           <div className='lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto'>
@@ -51,9 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
         </body>
-        <Analytics />
-        <SpeedInsights />
-      </Datadog>
+      </Monitoring>
     </html>
   );
 }

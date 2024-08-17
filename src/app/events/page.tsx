@@ -1,11 +1,9 @@
 import { Metadata } from "next";
-import Image from "next/image";
 
 import { DefaultOpenGraph } from "@/src/app/shared-metadata";
 import { Container } from "@/src/components/Container";
 import { Events } from "@/src/components/Events";
 import { Heading } from "@/src/components/Heading";
-import { Highlight } from "@/src/components/Highlight";
 import { Paragraph } from "@/src/components/Paragraph";
 
 export const metadata: Metadata = {

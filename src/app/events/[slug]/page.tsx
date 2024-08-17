@@ -51,6 +51,7 @@ export default function SingleProjectPage({ params }: { params: { slug: string }
   if (!event) {
     redirect("/events");
   }
+
   return (
     <Container>
       <SingleEvent event={event} />

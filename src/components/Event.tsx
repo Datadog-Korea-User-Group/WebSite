@@ -4,6 +4,7 @@ import Image, { StaticImageData } from "next/image";
 import React, { useState } from "react";
 
 import { Event } from "@/src/types/products";
+import { datadogRum } from "@datadog/browser-rum";
 import { DiscussionEmbed } from "disqus-react";
 import { motion } from "framer-motion";
 
@@ -12,6 +13,15 @@ import { Paragraph } from "./Paragraph";
 
 export const SingleEvent = ({ event }: { event: Event }) => {
   const [activeImage, setActiveImage] = useState<StaticImageData | string>(event.thumbnail);
+
+  React.useEffect(() => {
+    if (!event) return;
+    datadogRum.addAction("view_event", {
+      event: event.title,
+      event_id: event.slug,
+    });
+  }, [event]);
+
   return (
     <div className='py-10'>
       <motion.div
