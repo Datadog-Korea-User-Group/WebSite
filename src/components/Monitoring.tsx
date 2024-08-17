@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { Suspense } from "react";
 
 import { datadogRum } from "@datadog/browser-rum";
 import { Analytics } from "@vercel/analytics/next";
@@ -26,10 +26,10 @@ export const Monitoring = ({ children }: { children: React.ReactNode }) => {
   }, []);
 
   return (
-    <>
+    <Suspense fallback={<></>}>
       <Analytics />
       <SpeedInsights />
       {children}
-    </>
+    </Suspense>
   );
 };
