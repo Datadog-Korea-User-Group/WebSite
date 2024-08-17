@@ -9,6 +9,7 @@ export const Events = [
     images: [],
     stack: ["Datadog", "Dashboards", "Monitoring"],
     slug: "1",
+    created_at: "2024-08-11",
     content: (
       <div id='event-details' className='px-6 sm:px-4 xl:px-0 md:max-w-screen mt-5 w-full '>
         <div className='flex items-center justify-between'>
