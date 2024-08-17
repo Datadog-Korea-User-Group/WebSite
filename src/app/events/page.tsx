@@ -19,7 +19,8 @@ export default function Projects() {
     <Container>
       <span className='text-4xl'>📆</span>
       <Heading className='font-black mb-10'>Events</Heading>
-      <Paragraph className='mb-10'>DatadogKRUG의 행사 목록 입니다.</Paragraph>
+      <Paragraph className='text-slate-800'>DatadogKRUG의 행사 목록 입니다.</Paragraph>
+      <Paragraph className='mb-10'>DatadogKRUG Evnet List</Paragraph>
 
       <Events />
     </Container>

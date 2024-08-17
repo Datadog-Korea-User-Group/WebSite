@@ -91,6 +91,96 @@ export const Events = [
             </li>
           </ul>
         </div>
+
+        <br />
+        <div className='flex items-center justify-between'>
+          <h2 className='text-xl font-semibold'>Detail</h2>
+        </div>
+        <div className='break-words'>
+          <p className='mb-4'>
+            <strong>■ Introduction</strong>
+            <br />
+            DatadogKRUG (Datadog Korea User Group) is a group that shares knowledge and grows together on all topics
+            related to Monitoring and Observability.
+            <br />
+            We also share content about the numerous integrations that can be used with Datadog.
+            <br />
+            We aim for an enjoyable atmosphere where anyone can participate, discuss, ask questions, and network.
+          </p>
+          <p className='mb-4'>
+            ■ Date and Location
+            <br />
+            Date: August 30, 2024 (Friday) 19:00~21:00
+            <br />
+            Location: 24th Floor, Trend Room, KDB Tower, 372 Hangang-daero, Yongsan-gu, Seoul (Olive Young Headquarters)
+            <br />
+            Entry Method:{" "}
+            <strong>
+              To enter the event, please confirm the event name and your name at the information desk in the lobby on
+              the B1 floor of KDB Tower.
+            </strong>
+          </p>
+          <p className='mb-4'>
+            <strong>■ Event Topic</strong>
+          </p>
+          <ul className='pl-5 list-disc mb-4'>
+            <li>
+              Speaker: <strong>Samyeol Choi</strong> (SRE Engineer, CJ Olive Young Tech Platform Center, Platform
+              Engineering Team)
+            </li>
+            <li>
+              Topic: <strong>The Evolution of Olive Young's Dashboards Alongside Large-Scale Events</strong>
+            </li>
+          </ul>
+          <p className='mb-4'>
+            Olive Young has strengthened system stability and maximized service performance during large-scale online
+            mall events like the Olive Young Sale by establishing a Datadog-based monitoring system. In this session, an
+            Olive Young SRE engineer will introduce the evolution of dashboards that directly impacted user experience
+            improvement and share Datadog utilization know-how for development teams.
+          </p>
+          <p className='mb-4'>■ Schedule</p>
+          <ol className='pl-5 list-decimal mb-4'>
+            <li>Introduction</li>
+            <li>Main Presentation</li>
+            <li>Q&amp;A</li>
+            <li>Lightning Talk &amp; Closing</li>
+          </ol>
+          <p className='mb-4'>■ Participation Guide</p>
+          <ul className='pl-5 list-disc mb-4'>
+            <li>
+              The participation fee is <strong>10,000 KRW</strong>. Please transfer it to [Toss Bank Changhyun Yoon
+              1001-4417-6252].
+            </li>
+            <li>The participation fee is used for providing simple meals and operating DatadogKRUG.</li>
+            <li>
+              After applying for participation, the event organizers may move you to "Absent" after confirming the
+              payment details.
+            </li>
+            <li>
+              Once the payment is confirmed, you will be moved to "Attending" on the participant list and your status
+              will be changed to "Payment Completed".
+            </li>
+            <li>
+              Please note that the event organizers directly confirm the payment details and change the status, not the
+              Meetup system.
+            </li>
+            <li>Confirmed participants are determined in the order of payment among those who applied on Meetup.</li>
+          </ul>
+          <p className='mb-4'>■ Refund Guide</p>
+          <ul className='pl-5 list-disc mb-4'>
+            <li>The refund deadline is until 11:59 PM on August 25th.</li>
+            <li>
+              After the refund deadline, it is difficult to refund due to the completion of meal and entry preparation
+              procedures.
+            </li>
+            <li>For refund inquiries, please fill out the form at the link below and we will guide you.</li>
+            <li>
+              <a href='https://tally.so/r/mBZ155' target='_blank' className='!text-viridian' rel='nofollow ugc'>
+                Refund Application
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     ),
   },

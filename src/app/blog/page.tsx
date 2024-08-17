@@ -22,7 +22,10 @@ export default async function Blog() {
     <Container>
       <span className='text-4xl'>📝</span>
       <Heading className='font-black pb-4'>Blog</Heading>
-      <Paragraph className='pb-10'>DatadogKRUG의 블로그입니다. 각종 정보 및 밋업 자료를 공유합니다.</Paragraph>
+      <Paragraph className='text-slate-800'>DatadogKRUG의 블로그입니다. 각종 정보 및 밋업 자료를 공유합니다.</Paragraph>
+      <Paragraph className='pb-10'>
+        Here is the blog of DatadogKRUG. Various information and meetup speaker deck are shared.
+      </Paragraph>
       <Blogs blogs={data} />
     </Container>
   );
