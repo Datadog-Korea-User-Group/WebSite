@@ -42,15 +42,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name='theme-color' content='#ffffff' />
       </head>
       <Monitoring>
-        <body className='flex antialiased h-screen overflow-hidden bg-gray-100'>
-          <Sidebar />
-          <div className='lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto'>
-            <div className='flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto'>
-              <Suspense fallback={<SyncLoader loading color={"#632CA6"} />}>{children}</Suspense>
-              <Footer />
+        <Suspense fallback={<SyncLoader loading color={"#632CA6"} />}>
+          <body className='flex antialiased h-screen overflow-hidden bg-gray-100'>
+            <Sidebar />
+            <div className='lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto'>
+              <div className='flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto'>
+                {children}
+                <Footer />
+              </div>
             </div>
-          </div>
-        </body>
+          </body>
+        </Suspense>
       </Monitoring>
     </html>
   );
