@@ -165,7 +165,12 @@ export const Card = ({ card, index, layout = false }: { card: Card; index: numbe
             {card.title}
           </motion.p>
         </div>
-        <BlurImage src={card.src} alt={card.title} fill className='object-cover absolute z-10 inset-0' />
+        <BlurImage
+          src={card.src}
+          alt={card.title}
+          fill
+          className='object-cover absolute z-10 inset-0 transition duration-300 transform hover:scale-105'
+        />
       </motion.button>
     </>
   );
