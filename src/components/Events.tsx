@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 import { Heading } from "./Heading";
 import { Paragraph } from "./Paragraph";
 
-export const Events = ({ max = undefined }: { max: number | undefined }) => {
+export const Events = ({ max = undefined }: { max?: number }) => {
   return (
     <div>
       <div className='grid grid-cols-1  gap-10'>
