@@ -1,0 +1,62 @@
+import { BlogLayout } from "@/src/components/BlogLayout";
+import Link from "next/link";
+
+export const meta = {
+  date: "2024-08-30",
+  href: '/blog/20240830',
+  title: "대규모 이벤트와 함께 진화한 올리브영의 대시보드 변천사",
+  description: `올리브영은 데이터독 기반 모니터링 체계를 구축하여 올영세일과 같은 대규모 온라인몰 이벤트 운영 시 시스템 안정성을 강화하고, 서비스 성능을 극대화했습니다. 이에 본 세션에서는 올리브영 SRE 엔지니어가 사용자 경험 개선에 직접적 영향을 미친 대시보드 진화 과정을 소개하고, 개발팀을 위한 데이터독 활용 노하우를 추가로 공유합니다.`,
+  image: '/images/blog/20240830/thumbnail.jpg',
+  tags: ["Datadog", "Dashboard", "OliveYoung"],
+  attachments: [
+    {
+      src: "https://docs.google.com/presentation/d/1hI44dbqik91JfLpOt5vdGhMoOU3hL8-FhB9NxLxr0qs/edit?usp=sharing",
+      title: "발표자료",
+    }
+  ]
+};
+
+export default (props) => <BlogLayout meta={meta} {...props} />;
+
+## Introduction
+2024.08.30 올리브영 본사에서 DatadogKRUG 첫 밋업이 진행되었습니다. <br/>
+금요일 퇴근시간에 진행한 행사인데도 57명의 분들께서 참여하여 행사를 빛내주셨습니다. <br/>
+해당일에는 올영세일이라는 올리브영에서 가장 중요하고 규모가 큰 이벤트 첫날임에도 불구하고 많은 올리브영 엔지니어 분들께서 참여하셔서 현장에서 많은 도움을 주셨습니다. <br/>
+<div className='flex items-center gap-x-2'>
+  <img className='rounded-lg w-1/2' src={'/images/blog/20240830/IMG_0162.JPG'} alt="IMG_0162" />
+  <img className='rounded-lg w-1/2' src={'/images/blog/20240830/IMG_0185.JPG'} alt="IMG_0185" />
+</div>
+이번 행사는 DatadogKRUG의 첫 행사인 만큼 Datadog Korea에서 많은 지원을 해주셨는데요, <br />
+퇴근시간 직후 진행된 행사라 저녁 식사를 하지 못하신 분들을 위한 저녁식사와 데이터독 굿즈를 준비해주셨고 많은분들께서 만족해주셨습니다.
+
+<div className='flex items-center gap-x-2'>
+  <img className='rounded-lg w-1/2' src={'/images/blog/20240830/IMG_0159.JPG'} alt="IMG_0159" />
+  <img className='rounded-lg w-1/2' src={'/images/blog/20240830/IMG_0160.JPG'} alt="IMG_0160" />
+</div>
+
+
+
+
+올리브영은 데이터독을 3년정도 사용했는데요, 온라인몰과 오프라인몰이 동시에 존재하고 올영세일이라는 특수한 경우가 있어 참여자분들의 많은 관심이 있었습니다. <br/>
+특히 가장 인상깊었던 점은 데이터 독 내부에 대시보드가 약 400개 정도가 존재한다고 하는데요, 데이터독을 모니터링 툴로 사용하는 것을 넘어 전사 업무툴 중 하나로 사용하는 것 같은 느낌을 받을 수 있었습니다.
+
+<img className='rounded-lg' src={'/images/blog/20240830/IMG_0034.JPG'} alt="IMG_0034" />
+<img className='rounded-lg' src={'/images/blog/20240830/IMG_0157.JPG'} alt="IMG_0157" />
+
+
+## Appendix
+
+### 연사자 모집
+DatadogKRUG는 매달 마지막주에 오프라인으로 모임을 가지고 있습니다. <br/>
+Datadog과 관련된 내용이면 Best지만 필수는 아닙니다.<br/>
+DevOps, Monitoring, Observability 와 관련된 경험과 노하우라면 어떤 주제도 환영합니다.🤗<br/>
+연사자로 참여해주시는 분께는 소정의 선물을 제공해드리고 있으니 많은 지원 부탁드리며 아래 양식을 작성해서 제출해주시면 확인 후 연락드리겠습니다.<br/><br/>
+<Link href='https://tally.so/r/wbLoBE' target='_blank' style={{textDecoration: 'none'}}>
+  [연사자 신청]
+</Link>
+
+<div className='flex flex-col gap-y-2 items-center'>
+  <img className='rounded-lg' src={'/images/blog/20240830/0408302135174152584469.JPG'} alt="0408302135174152584469" />
+  <img className='rounded-lg' src={'/images/blog/20240830/0408302136134192584872.JPG'}
+       alt="0408302136134192584872.JPG" />
+</div>

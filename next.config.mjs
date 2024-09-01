@@ -1,11 +1,13 @@
 /** @type {import("next").NextConfig} */
 import rehypePrism from "@mapbox/rehype-prism";
 import nextMDX from "@next/mdx";
+import remarkEmoji from "remark-emoji";
 import remarkGfm from "remark-gfm";
+import remarkImage from "remark-images";
 
 const nextConfig = {
   images: {
-    domains: ["imgix.datadoghq.com"],
+    domains: ["imgix.datadoghq.com", "images.unsplash.com"],
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
@@ -26,7 +28,7 @@ const nextConfig = {
 const withMDX = nextMDX({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [remarkGfm],
+    remarkPlugins: [remarkGfm, remarkEmoji, remarkImage],
     rehypePlugins: [rehypePrism],
   },
 });

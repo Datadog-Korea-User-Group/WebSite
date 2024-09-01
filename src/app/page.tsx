@@ -1,3 +1,4 @@
+import { Blogs } from "@/src/components/Blogs";
 import { Container } from "@/src/components/Container";
 import { Events } from "@/src/components/Events";
 import { Heading } from "@/src/components/Heading";
@@ -5,7 +6,11 @@ import { Highlight } from "@/src/components/Highlight";
 import { Paragraph } from "@/src/components/Paragraph";
 import { Sponsor } from "@/src/components/Sponsor";
 
-export default function Home() {
+import { getAllBlogs } from "@/lib/getAllBlogs";
+
+export default async function Home() {
+  const blogs = await getAllBlogs();
+  const data = blogs.map(({ component, ...meta }) => meta).splice(0, 5);
   return (
     <Container>
       <span className='text-4xl'>🇰🇷</span>
@@ -29,7 +34,11 @@ export default function Home() {
       <Heading as='h2' className='font-black text-lg md:text-lg lg:text-lg mt-20 mb-4'>
         What we do
       </Heading>
-      <Events />
+      <Events max={5} />
+      <Heading as='h2' className='font-black text-lg md:text-lg lg:text-lg mt-20 mb-4'>
+        Posts
+      </Heading>
+      <Blogs blogs={data} />
       <Sponsor />
     </Container>
   );
