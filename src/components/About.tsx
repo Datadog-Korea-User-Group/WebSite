@@ -15,10 +15,10 @@ import { ImageDecorator } from "react-viewer/lib/ViewerProps";
 const Viewer = dynamic(() => import("react-viewer"), { ssr: false });
 
 const images = [
-  "https://imgix.datadoghq.com//img/about/presskit/Datadog_Lobby.jpg?dpr=2&auto=format&_gl=1*ta49n*_gcl_aw*R0NMLjE3MjM2MTYyMjYuQ2owS0NRandpT3kxQmhEQ0FSSXNBREd2UW5BamV5UUgtS21XLWpiMTFSeER5d3R2UFdqT1FFV2N1c3l3M1VsLVlZVWw3d09ac0FZMlhSZ2FBbWQ2RUFMd193Y0I.*_gcl_au*MjA4OTEyNjU1My4xNzIxNjk2OTU0*_ga*MTAwODU1ODQ5Mi4xNzIxNjM2Njkx*_ga_KN80RDFSQK*MTcyMzg4Mjg1Mi4yNi4wLjE3MjM4ODI4ODkuMC4wLjE3MDAxMzg3NjQ.",
-  "https://imgix.datadoghq.com//img/about/presskit/Bits_Mascot.jpg?dpr=2&auto=format&_gl=1*ta49n*_gcl_aw*R0NMLjE3MjM2MTYyMjYuQ2owS0NRandpT3kxQmhEQ0FSSXNBREd2UW5BamV5UUgtS21XLWpiMTFSeER5d3R2UFdqT1FFV2N1c3l3M1VsLVlZVWw3d09ac0FZMlhSZ2FBbWQ2RUFMd193Y0I.*_gcl_au*MjA4OTEyNjU1My4xNzIxNjk2OTU0*_ga*MTAwODU1ODQ5Mi4xNzIxNjM2Njkx*_ga_KN80RDFSQK*MTcyMzg4Mjg1Mi4yNi4wLjE3MjM4ODI4ODkuMC4wLjE3MDAxMzg3NjQ.",
-  "https://imgix.datadoghq.com//img/about/presskit/Datadog_NYCView.jpg?dpr=2&auto=format&_gl=1*ta49n*_gcl_aw*R0NMLjE3MjM2MTYyMjYuQ2owS0NRandpT3kxQmhEQ0FSSXNBREd2UW5BamV5UUgtS21XLWpiMTFSeER5d3R2UFdqT1FFV2N1c3l3M1VsLVlZVWw3d09ac0FZMlhSZ2FBbWQ2RUFMd193Y0I.*_gcl_au*MjA4OTEyNjU1My4xNzIxNjk2OTU0*_ga*MTAwODU1ODQ5Mi4xNzIxNjM2Njkx*_ga_KN80RDFSQK*MTcyMzg4Mjg1Mi4yNi4wLjE3MjM4ODI4ODkuMC4wLjE3MDAxMzg3NjQ.",
-  "https://imgix.datadoghq.com//img/about/presskit/Datadog_Alerts.png?dpr=2&_gl=1*cb3vvl*_gcl_aw*R0NMLjE3MjM2MTYyMjYuQ2owS0NRandpT3kxQmhEQ0FSSXNBREd2UW5BamV5UUgtS21XLWpiMTFSeER5d3R2UFdqT1FFV2N1c3l3M1VsLVlZVWw3d09ac0FZMlhSZ2FBbWQ2RUFMd193Y0I.*_gcl_au*MjA4OTEyNjU1My4xNzIxNjk2OTU0*_ga*MTAwODU1ODQ5Mi4xNzIxNjM2Njkx*_ga_KN80RDFSQK*MTcyMzg4NzAzNC4yNy4wLjE3MjM4ODcwMzQuMC4wLjQ4NjUyODcwNQ..*_fplc*dGdqQjFTNHIxbUFsZ3IzR3FQZEdaQXRTJTJGb29UUmdNWEdZSGFwZDZzek9peFZjSTNXdVJuem1hdThjeU9jZjZkNkRacWtIWldybSUyRmhoJTJCdkVCVDJabGFkTFYxdXJDVEVydHp6QmlaNVJyUkJXaWdlV1llZ2haSk5Ob2llVW9RJTNEJTNE",
+  "/images/blog/20240830/0408302135174152584469.JPG",
+  "/images/blog/20240830/thumbnail.jpg",
+  "/images/blog/20240830/IMG_0162.JPG",
+  "/images/blog/20240830/0408302136134192584872.JPG",
 ];
 
 export default function About() {
