@@ -7,7 +7,7 @@ export const Events = [
     description: `2024.08.30 (금) 19:00~21:00\n서울 용산구 한강대로 372, KDB타워 24층 트렌드룸 (올리브영 본사)`,
     thumbnail: OG_First,
     images: [],
-    stack: ["Datadog", "Dashboards", "Monitoring"],
+    stack: ["Datadog", "Dashboard", "Monitoring"],
     slug: "1",
     created_at: "2024-08-11",
     content: (
