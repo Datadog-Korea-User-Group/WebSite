@@ -50,6 +50,7 @@ export function BlogLayout({ children, meta, isRssFeed = false, previousPathname
             <Image
               src={meta.image}
               alt='thumbnail'
+              id='thumbnail'
               height='1000'
               width='1000'
               className={`object-cover object-left-top w-full max-h-[1000px]`}
