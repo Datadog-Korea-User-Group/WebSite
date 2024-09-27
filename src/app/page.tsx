@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { Blogs } from "@/src/components/Blogs";
 import { Container } from "@/src/components/Container";
 import { Events } from "@/src/components/Events";
@@ -15,6 +17,14 @@ export default async function Home() {
     <Container>
       <span className='text-4xl'>🇰🇷</span>
       <Heading className='font-black'>DatadogKRUG</Heading>
+      <div className='flex items-center gap-2 my-5 '>
+        <Link href={"https://tally.so/r/31vddM"} className='hover:underline font-semibold' target={"_blank"}>
+          <Highlight>희망 세션 설문조사</Highlight>
+        </Link>
+        <Link href={"https://tally.so/r/wbLoBE"} className='hover:underline font-semibold' target={"_blank"}>
+          <Highlight>DatadogKRUG 발표신청</Highlight>
+        </Link>
+      </div>
       <Paragraph className='max-w-xl mt-5'>
         <Highlight>DatadogKRUG (Datadog Korea User Group)</Highlight>은 Monitoring, Observability와 관련된 모든 주제에
         대해서 지식을 교류하며 함께 성장하는 모임입니다.
