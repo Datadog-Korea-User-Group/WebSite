@@ -7,6 +7,8 @@ import {
   IconBrandSlack,
   IconBrandTwitter,
   IconBrandYoutube,
+  IconEar,
+  IconSpeakerphone,
 } from "@tabler/icons-react";
 
 export const socials = [
@@ -44,5 +46,15 @@ export const socials = [
     href: "https://github.com/Datadog-Korea-User-Group",
     label: "Github",
     icon: IconBrandGithub,
+  },
+  {
+    href: "https://tally.so/r/31vddM",
+    label: "희망 세션 설문조사",
+    icon: IconEar,
+  },
+  {
+    href: "https://tally.so/r/wbLoBE",
+    label: "DatadogKRUG 발표신청",
+    icon: IconSpeakerphone,
   },
 ];

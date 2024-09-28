@@ -17,19 +17,19 @@ export default async function Home() {
     <Container>
       <span className='text-4xl'>🇰🇷</span>
       <Heading className='font-black'>DatadogKRUG</Heading>
-      <div className='flex flex-col mt-5'>
-        <Heading as='h3' className='font-black !text-xl'>
-          Datadog LIVE Seoul 2024 설문조사
-        </Heading>
-        <div className='flex items-center gap-2 mt-2.5 mb-5 '>
-          <Link href={"https://tally.so/r/31vddM"} className='hover:underline font-semibold' target={"_blank"}>
-            <Highlight>희망 세션 설문조사</Highlight>
-          </Link>
-          <Link href={"https://tally.so/r/wbLoBE"} className='hover:underline font-semibold' target={"_blank"}>
-            <Highlight>DatadogKRUG 발표신청</Highlight>
-          </Link>
-        </div>
-      </div>
+      {/*<div className='flex flex-col mt-5'>*/}
+      {/*  <Heading as='h3' className='font-black !text-xl'>*/}
+      {/*    Datadog LIVE Seoul 2024 설문조사*/}
+      {/*  </Heading>*/}
+      {/*  <div className='flex items-center gap-2 mt-2.5 mb-5 '>*/}
+      {/*    <Link  href={"https://tally.so/r/31vddM"} className='hover:underline font-semibold' target={"_blank"}>*/}
+      {/*      <Highlight>희망 세션 설문조사</Highlight>*/}
+      {/*    </Link>*/}
+      {/*    <Link href={"https://tally.so/r/wbLoBE"} className='hover:underline font-semibold' target={"_blank"}>*/}
+      {/*      <Highlight>DatadogKRUG 발표신청</Highlight>*/}
+      {/*    </Link>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
       <Paragraph className='max-w-xl mt-5'>
         <Highlight>DatadogKRUG (Datadog Korea User Group)</Highlight>은 Monitoring, Observability와 관련된 모든 주제에
         대해서 지식을 교류하며 함께 성장하는 모임입니다.
