@@ -304,7 +304,7 @@ export const Events = [
               Speaker: <strong>Subin Kim</strong> (Daangn Market Software Engineer)
             </li>
             <li>
-              Topic:
+              Topic:&nbsp;
               <strong>Monitoring GitHub Actions with Datadog CI Visibility</strong>
             </li>
           </ul>
