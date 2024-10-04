@@ -313,8 +313,8 @@ export const Events = [
           <p className='mb-4'>
             CI/CD has become an essential process for increasing productivity and stability in the development process.
             In this presentation, we will introduce how to monitor and improve various GitHub Actions CI pipelines used
-            in the development process using Datadog's CI Visibility (CI Pipeline Visibility). (This presentation does
-            not include Daangn's use cases.)
+            in the development process using Datadog&apos;s CI Visibility (CI Pipeline Visibility). (This presentation
+            does not include Daangn&apos;s use cases.)
           </p>
           <p className='mb-4'>■ Schedule</p>
           <ol className='pl-5 list-decimal mb-4'>
