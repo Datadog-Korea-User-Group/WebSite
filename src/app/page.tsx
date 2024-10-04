@@ -6,7 +6,7 @@ import { Events } from "@/src/components/Events";
 import { Heading } from "@/src/components/Heading";
 import { Highlight } from "@/src/components/Highlight";
 import { Paragraph } from "@/src/components/Paragraph";
-import { Sponsor } from "@/src/components/Sponsor";
+import { Partner } from "@/src/components/Partner";
 
 import { getAllBlogs } from "@/lib/getAllBlogs";
 
@@ -54,7 +54,7 @@ export default async function Home() {
         Posts
       </Heading>
       <Blogs blogs={data} />
-      <Sponsor />
+      <Partner />
     </Container>
   );
 }

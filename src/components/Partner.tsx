@@ -6,8 +6,8 @@ import { twMerge } from "tailwind-merge";
 
 import { Heading } from "./Heading";
 
-export const Sponsor = () => {
-  const sponsors = [
+export const Partner = () => {
+  const partners = [
     {
       title: "CJ 올리브영 (CJ OliveYoung)",
       src: "/images/sponsors/oliveyoung.jpg",
@@ -18,10 +18,10 @@ export const Sponsor = () => {
   return (
     <div>
       <Heading as='h2' className='font-black text-lg md:text-lg lg:text-lg mt-20 mb-4'>
-        Sponsors
+        Partners
       </Heading>
       <div className='flex flex-wrap'>
-        {sponsors.map((item) => (
+        {partners.map((item) => (
           <Link href={item.link} key={item.title}>
             <Image
               src={item.src}
