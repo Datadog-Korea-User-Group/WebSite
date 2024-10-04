@@ -192,7 +192,7 @@ export const Events = [
     description: `2024.10.31 (목) 19:30~21:00\n서울특별시 서초구 강남대로 465 (교보타워) B동 11층 당근마켓 라운지`,
     thumbnail: OG_2,
     images: [],
-    stack: ["Datadog", "Dashboard", "Monitoring"],
+    stack: ["Datadog", "CI/CD", "Monitoring"],
     slug: "2",
     created_at: "2024-10-05",
     content: (
