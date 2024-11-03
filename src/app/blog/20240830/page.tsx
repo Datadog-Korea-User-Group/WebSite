@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         url: "https://datadogkrug.vercel.app/api/og?path=/blog/20240830",
         width: 1200,
         height: 630,
-        alt: "Web Worker를 사용한 Next.js 성능 최적화",
+        alt: "DataDogKRUG",
       },
     ],
   },
