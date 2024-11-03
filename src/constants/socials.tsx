@@ -38,7 +38,7 @@ export const socials = [
     icon: IconBrandLinkedin,
   },
   {
-    href: "https://join.slack.com/t/datadogkrug/shared_invite/zt-2ogv9n",
+    href: "https://join.slack.com/t/datadogkrug/shared_invite/zt-2s21xeead-SugQHUa_11WKQiR4nWuRsg",
     label: "Slack",
     icon: IconBrandSlack,
   },
