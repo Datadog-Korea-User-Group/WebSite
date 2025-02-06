@@ -1,31 +1,18 @@
 import {
-  IconBrandFacebook,
   IconBrandGithub,
-  IconBrandInstagram,
   IconBrandLinkedin,
-  IconBrandMeetup,
   IconBrandSlack,
-  IconBrandTwitter,
   IconBrandYoutube,
   IconEar,
   IconSpeakerphone,
+  IconTicket
 } from "@tabler/icons-react";
 
 export const socials = [
   {
-    href: "https://www.meetup.com/ko-KR/datadog-korea-user-group/",
-    label: "MeetUp",
-    icon: IconBrandMeetup,
-  },
-  {
-    href: "https://www.facebook.com/profile.php?id=61564019353094",
-    label: "Facebook",
-    icon: IconBrandFacebook,
-  },
-  {
-    href: "https://www.instagram.com/datadog.krug/",
-    label: "Instagram",
-    icon: IconBrandInstagram,
+    href: "https://www.inflearn.com/users/389670/@datadogkrug",
+    label: "Register Event (Inflearn)",
+    icon: IconTicket,
   },
   {
     href: "https://www.youtube.com/@DatadogKRUG",

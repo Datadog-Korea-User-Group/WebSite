@@ -36,7 +36,7 @@ export const Events = ({ max = undefined }: { max?: number }) => {
                   key={event.href}
                   className='group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 py-4 px-4 shadow-xl'
                 >
-                  <Image src={event.thumbnail} alt='thumbnail' height='200' width='200' className='rounded-md' />
+                  {/* <Image src={event.thumbnail} alt='thumbnail' height='200' width='200' className='rounded-md' /> */}
                   <div className='flex flex-col justify-between'>
                     <div>
                       <Heading as='h4' className='font-black text-lg md:text-lg lg:text-lg '>

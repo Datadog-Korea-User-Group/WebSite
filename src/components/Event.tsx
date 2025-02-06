@@ -62,7 +62,7 @@ export const SingleEvent = ({ event }: { event: Event }) => {
           </button>
         ))}
       </div>
-      <div className='flex lg:flex-row justify-between items-center flex-col mt-20'>
+      <div className='flex justify-between flex-col mt-20'>
         <Heading className='font-black mb-2 pb-1'> {event.title}</Heading>
         <div className='flex space-x-2 md:mb-1 mt-2 md:mt-0'>
           {event.stack?.map((stack: string) => (

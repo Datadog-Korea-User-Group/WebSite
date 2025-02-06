@@ -1,5 +1,9 @@
 import OG_1 from "@/public/images/og/1.png";
 import OG_2 from "@/public/images/og/2.png";
+import OG_3 from "@/public/images/og/3.png";
+
+import OG_20250123_1 from "@/public/images/og/20250123_1.png";
+import OG_20250123_2 from "@/public/images/og/20250123_2.png";
 
 export const Events = [
   {
@@ -8,7 +12,7 @@ export const Events = [
     description: `2024.08.30 (금) 19:00~21:00\n서울 용산구 한강대로 372, KDB타워 24층 트렌드룸 (올리브영 본사)`,
     thumbnail: OG_1,
     images: [],
-    stack: ["Datadog", "Dashboard", "Monitoring"],
+    stack: ["Dashboard", "Monitoring"],
     slug: "1",
     created_at: "2024-08-11",
     content: (
@@ -95,94 +99,6 @@ export const Events = [
         </div>
 
         <br />
-        <div className='flex items-center justify-between'>
-          <h2 className='text-xl font-semibold'>Detail</h2>
-        </div>
-        <div className='break-words'>
-          <p className='mb-4'>
-            <strong>■ Introduction</strong>
-            <br />
-            DatadogKRUG (Datadog Korea User Group) is a group that shares knowledge and grows together on all topics
-            related to Monitoring and Observability.
-            <br />
-            We also share content about the numerous integrations that can be used with Datadog.
-            <br />
-            We aim for an enjoyable atmosphere where anyone can participate, discuss, ask questions, and network.
-          </p>
-          <p className='mb-4'>
-            ■ Date and Location
-            <br />
-            Date: August 30, 2024 (Friday) 19:00~21:00
-            <br />
-            Location: 24th Floor, Trend Room, KDB Tower, 372 Hangang-daero, Yongsan-gu, Seoul (Olive Young Headquarters)
-            <br />
-            Entry Method:{" "}
-            <strong>
-              To enter the event, please confirm the event name and your name at the information desk in the lobby on
-              the B1 floor of KDB Tower.
-            </strong>
-          </p>
-          <p className='mb-4'>
-            <strong>■ Event Topic</strong>
-          </p>
-          <ul className='pl-5 list-disc mb-4'>
-            <li>
-              Speaker: <strong>Samyeol Choi</strong> (SRE Engineer, CJ Olive Young Tech Platform Center, Platform
-              Engineering Team)
-            </li>
-            <li>
-              Topic: <strong>The Evolution of Olive Young&apos;s Dashboards Alongside Large-Scale Events</strong>
-            </li>
-          </ul>
-          <p className='mb-4'>
-            Olive Young has strengthened system stability and maximized service performance during large-scale online
-            mall events like the Olive Young Sale by establishing a Datadog-based monitoring system. In this session, an
-            Olive Young SRE engineer will introduce the evolution of dashboards that directly impacted user experience
-            improvement and share Datadog utilization know-how for development teams.
-          </p>
-          <p className='mb-4'>■ Schedule</p>
-          <ol className='pl-5 list-decimal mb-4'>
-            <li>Introduction</li>
-            <li>Main Presentation</li>
-            <li>Q&amp;A</li>
-            <li>Lightning Talk &amp; Closing</li>
-          </ol>
-          <p className='mb-4'>■ Participation Guide</p>
-          <ul className='pl-5 list-disc mb-4'>
-            <li>
-              The participation fee is <strong>10,000 KRW</strong>. Please transfer it to [Toss Bank Changhyun Yoon
-              1001-4417-6252].
-            </li>
-            <li>The participation fee is used for providing simple meals and operating DatadogKRUG.</li>
-            <li>
-              After applying for participation, the event organizers may move you to &quot;Absent&quot; after confirming
-              the payment details.
-            </li>
-            <li>
-              Once the payment is confirmed, you will be moved to &quot;Attending&quot; on the participant list and your
-              status will be changed to &quot;Payment Completed&quot;.
-            </li>
-            <li>
-              Please note that the event organizers directly confirm the payment details and change the status, not the
-              Meetup system.
-            </li>
-            <li>Confirmed participants are determined in the order of payment among those who applied on Meetup.</li>
-          </ul>
-          <p className='mb-4'>■ Refund Guide</p>
-          <ul className='pl-5 list-disc mb-4'>
-            <li>The refund deadline is until 11:59 PM on August 25th.</li>
-            <li>
-              After the refund deadline, it is difficult to refund due to the completion of meal and entry preparation
-              procedures.
-            </li>
-            <li>For refund inquiries, please fill out the form at the link below and we will guide you.</li>
-            <li>
-              <a href='https://tally.so/r/mBZ155' target='_blank' className='!text-viridian' rel='nofollow ugc'>
-                Refund Application
-              </a>
-            </li>
-          </ul>
-        </div>
       </div>
     ),
   },
@@ -192,7 +108,7 @@ export const Events = [
     description: `2024.10.31 (목) 19:30~21:00\n서울특별시 서초구 강남대로 465 (교보타워) B동 11층 당근마켓 라운지`,
     thumbnail: OG_2,
     images: [],
-    stack: ["Datadog", "CI/CD", "Monitoring"],
+    stack: ["CI/CD", "Monitoring"],
     slug: "2",
     created_at: "2024-10-05",
     content: (
@@ -273,90 +189,100 @@ export const Events = [
         </div>
 
         <br />
+      </div>
+    ),
+  },
+  {
+    href: "https://www.inflearn.com/course/offline/datadog-meetup-20253rd",
+    title: "DatadogKRUG 3회 밋업",
+    description: `2025.01.23 (목) 19:00~21:00\n경기 성남시 분당구 판교로289번길 20 (판교테크노밸리 스타트업 캠퍼스)3동 5층 인프랩 타운홀`,
+    thumbnail: OG_3,
+    images: [],
+    stack: ["Certification", "APM", "DBM", "DSM", "Service Catalog", "Cloud SIEM", "RUM", "FinOps"],
+    slug: "3",
+    created_at: "2025-01-23",
+    content: (
+      <div id='event-details' className='px-6 sm:px-4 xl:px-0 md:max-w-screen mt-5 w-full '>
         <div className='flex items-center justify-between'>
-          <h2 className='text-xl font-semibold'>Detail</h2>
+          <h2 className='text-xl font-semibold'>세부 정보</h2>
         </div>
         <div className='break-words'>
           <p className='mb-4'>
-            <strong>■ Introduction</strong>
+            <strong>■ 모임 소개</strong>
             <br />
-            DatadogKRUG (Datadog Korea User Group) is a group that shares knowledge and grows together on all topics
-            related to Monitoring and Observability.
+            DatadogKRUG (Datadog Korea User Group)은 Monitoring, Observability와 관련된 모든 주제에 대해서 지식을
+            교류하며 함께 성장하는 모임입니다.
             <br />
-            We also share content about the numerous integrations that can be used with Datadog.
+            Datadog뿐만 아니라 Datadog에서 사용할 수 있는 수많은 Integrations 들에 대한 내용도 공유할 수 있습니다.
             <br />
-            We aim for an enjoyable atmosphere where anyone can participate, discuss, ask questions, and network.
+            누구나 참여해서 즐겁게 즐길 수 있는 분위기, 토론 및 질의응답, 네트워킹 하는 것을 지향합니다.
           </p>
           <p className='mb-4'>
-            ■ Date and Location
+            ■ 일시 및 장소
             <br />
-            Date: October 31, 2024 (Thursday) 19:30~21:00
+            일시 : 2025.01.23 (목) 19:00~21:00
             <br />
-            Location: 11th Floor, Lounge, Kyobo Tower B, 465 Gangnam-daero, Seocho-gu, Seoul (Daangn Market
-            Headquarters)
+            장소 : 경기 성남시 분당구 판교로289번길 20 (판교테크노밸리 스타트업 캠퍼스)3동 5층 인프랩 타운홀
             <br />
           </p>
           <p className='mb-4'>
-            <strong>■ Event Topic</strong>
+            <strong>■ 모임주제</strong>
           </p>
           <ul className='pl-5 list-disc mb-4'>
+            <img src={OG_20250123_1.src} alt='20250123_1' />
             <li>
-              Speaker: <strong>Subin Kim</strong> (Daangn Market Software Engineer)
+              발표자: <strong>문성혁</strong>님 (Software Engineer)
             </li>
             <li>
-              Topic:&nbsp;
-              <strong>Monitoring GitHub Actions with Datadog CI Visibility</strong>
+              주제: <strong>데이터독 자격증 후기와 소소한 팁, 그리고 내가 좋아하는 데이터독 기능들</strong>
             </li>
           </ul>
           <p className='mb-4'>
-            CI/CD has become an essential process for increasing productivity and stability in the development process.
-            In this presentation, we will introduce how to monitor and improve various GitHub Actions CI pipelines used
-            in the development process using Datadog&apos;s CI Visibility (CI Pipeline Visibility). (This presentation
-            does not include Daangn&apos;s use cases.)
+          전반부에선 데이터독 자격증에 대한 경험을 간단히 이야기하고, 후반부에서는 그동안 데이터독을 활용해 온 방법들을 공유하는 라이트한 발표입니다.
           </p>
-          <p className='mb-4'>■ Schedule</p>
-          <ol className='pl-5 list-decimal mb-4'>
-            <li>Introduction</li>
-            <li>Main Presentation</li>
-            <li>Q&amp;A</li>
-            <li>Lightning Talk &amp; Closing</li>
-          </ol>
-          <p className='mb-4'>■ Participation Guide</p>
+          <div className='h-px bg-gray-800 my-4'/>
           <ul className='pl-5 list-disc mb-4'>
+            <img src={OG_20250123_2.src} alt='20250123_2' />
             <li>
-              The participation fee is <strong>10,000 KRW</strong>. Please transfer it to [Toss Bank Changhyeon Yoon
-              1001-4417-6252].
+              발표자: <strong>정인호</strong>님 (DevOps Engineer @ 인프랩)
             </li>
-            <li>The participation fee is used for providing simple meals and operating DatadogKRUG.</li>
-            <li>
-              After applying for participation, the event organizers may move you to &quot;Absent&quot; after confirming
-              the payment details.
-            </li>
-            <li>
-              Once the payment is confirmed, you will be moved to &quot;Attending&quot; on the participant list and your
-              status will be changed to &quot;Payment Completed&quot;.
-            </li>
-            <li>
-              Please note that the event organizers directly confirm the payment details and change the status, not the
-              Meetup system.
-            </li>
-            <li>Confirmed participants are determined in the order of payment among those who applied on Meetup.</li>
-          </ul>
-          <p className='mb-4'>■ Refund Guide</p>
-          <ul className='pl-5 list-disc mb-4'>
-            <li>The refund deadline is until 11:59 PM on October 27th.</li>
-            <li>
-              After the refund deadline, it is difficult to refund due to the completion of meal and entry preparation
-              procedures.
-            </li>
-            <li>For refund inquiries, please fill out the form at the link below and we will guide you.</li>
-            <li>
-              <a href='https://tally.so/r/mBZ155' target='_blank' className='!text-viridian' rel='nofollow ugc'>
-                Refund Application
-              </a>
+            <li>  
+              주제: <strong>데이터독과 함께 성장한 3년의 경험기 : 실전 노하우와 최적화 전략</strong>
             </li>
           </ul>
+          <p className='mb-4'>
+          지난 3년간의 데이터독 사용 경험을 바탕으로 한 실질적인 노하우를 공유합니다. 
+          <strong>소규모 스타트업에서 다양한 데이터독 제품을 도입하게 된 이유</strong>와 주요 제품에 대한 활용 노하우를 소개합니다. 
+          또한 데이터독으로 관측가능성(Observability), 운영 우수성(Operational Excellence), 보안 모니터링을 달성하기 위한 시행착오와 경험을 공유하고, 
+          마지막으로 데이터독 비용 최적화에 대한 사례를 제시합니다.
+          </p>
+          <p className='mb-4'>■ 진행 순서</p>
+          <ul className='pl-5 mb-4'>
+            <li>18:30 ~ 19:00 - 체크인</li>
+            <li>19:00 ~ 19:20 - 모임 및 행사 소개</li>
+            <li>19:20 ~ 19:50 - 세션 1</li>
+            <li>19:50 ~ 20:00 - 세션 1 질의 응답</li>
+            <li>20:00 ~ 20:10 - 쉬는시간</li>
+            <li>20:10 ~ 20:50 - 세션 2</li>
+            <li>20:50 ~ 21:00 - 세션 2 질의 응답</li>
+            <li>21:00 - 행사 종료</li>
+          </ul>
+          <p className='mb-4'>■ 참가 안내</p>
+          <ul className='pl-5 list-disc mb-4'>
+            <li>
+              참가비는 <strong>15,400원(부가세 10% 포함)</strong>이며 인프런에서 신청 및 결제 부탁드립니다<div className=""></div>
+            </li>
+            <li>
+              참가비는 간단한 식사 제공 및 DatadogKRUG 운영에 사용됩니다.
+            </li>
+            <li>
+              환불가능 시간 이후에는 식사 및 출입준비 절차 완료로 인해 환불이 어렵습니다.
+            </li>
+          </ul>
+          <em>커뮤니티의 운영을 위해 비영리 법인 설립 준비 및 더욱 다양한 행사를 준비하기 위해 부득이 하게 2025년 부터 참가비를 인상하게 되었습니다. 더욱 좋은 행사를 준비하기 위해 앞으로 더욱 노력하겠습니다.</em>
         </div>
+
+        <br />
       </div>
     ),
   },
