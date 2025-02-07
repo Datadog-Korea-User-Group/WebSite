@@ -1,9 +1,13 @@
 import OG_1 from "@/public/images/og/1.png";
 import OG_2 from "@/public/images/og/2.png";
 import OG_3 from "@/public/images/og/3.png";
+import OG_4 from "@/public/images/og/4.png";
 
 import OG_20250123_1 from "@/public/images/og/20250123_1.png";
 import OG_20250123_2 from "@/public/images/og/20250123_2.png";
+
+import OG_20250221_1 from "@/public/images/og/20250221_1.png";
+import OG_20250221_2 from "@/public/images/og/20250221_2.png";
 
 export const Events = [
   {
@@ -266,6 +270,106 @@ export const Events = [
             <li>20:10 ~ 20:50 - 세션 2</li>
             <li>20:50 ~ 21:00 - 세션 2 질의 응답</li>
             <li>21:00 - 행사 종료</li>
+          </ul>
+          <p className='mb-4'>■ 참가 안내</p>
+          <ul className='pl-5 list-disc mb-4'>
+            <li>
+              참가비는 <strong>15,400원(부가세 10% 포함)</strong>이며 인프런에서 신청 및 결제 부탁드립니다<div className=""></div>
+            </li>
+            <li>
+              참가비는 간단한 식사 제공 및 DatadogKRUG 운영에 사용됩니다.
+            </li>
+            <li>
+              환불가능 시간 이후에는 식사 및 출입준비 절차 완료로 인해 환불이 어렵습니다.
+            </li>
+          </ul>
+          <em>커뮤니티의 운영을 위해 비영리 법인 설립 준비 및 더욱 다양한 행사를 준비하기 위해 부득이 하게 2025년 부터 참가비를 인상하게 되었습니다. 더욱 좋은 행사를 준비하기 위해 앞으로 더욱 노력하겠습니다.</em>
+        </div>
+
+        <br />
+      </div>
+    ),
+  },
+  {
+    href: "https://www.inflearn.com/course/offline/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8F%85-%ED%95%9C%EA%B5%AD%EC%82%AC%EC%9A%A9%EC%9E%90%EB%AA%A8%EC%9E%84-4%ED%9A%8C-%EB%B0%8B%EC%97%85",
+    title: "DatadogKRUG 4회 밋업",
+    description: `2025.02.21 (금) 19:00~20:40\n서울 성동구 연무장7길 13 (팩토리얼성수) 4층`,
+    thumbnail: OG_4,
+    images: [],
+    stack: ["MSA", "Logs", "Gateway", "Infra", "DevOps", "IDC"],
+    slug: "4",
+    created_at: "2025-02-21",
+    content: (
+      <div id='event-details' className='px-6 sm:px-4 xl:px-0 md:max-w-screen mt-5 w-full '>
+        <div className='flex items-center justify-between'>
+          <h2 className='text-xl font-semibold'>세부 정보</h2>
+        </div>
+        <div className='break-words'>
+          <p className='mb-4'>
+            <strong>■ 모임 소개</strong>
+            <br />
+            DatadogKRUG (Datadog Korea User Group)은 Monitoring, Observability와 관련된 모든 주제에 대해서 지식을
+            교류하며 함께 성장하는 모임입니다.
+            <br />
+            Datadog뿐만 아니라 Datadog에서 사용할 수 있는 수많은 Integrations 들에 대한 내용도 공유할 수 있습니다.
+            <br />
+            누구나 참여해서 즐겁게 즐길 수 있는 분위기, 토론 및 질의응답, 네트워킹 하는 것을 지향합니다.
+          </p>
+          <p className='mb-4'>
+            ■ 일시 및 장소
+            <br />
+            일시 : 2025.02.21 (금) 19:00~20:40
+            <br />
+            장소 : 서울 성동구 연무장7길 13 (팩토리얼성수) 4층
+            <br />
+          </p>
+          <p className='mb-4'>
+            <em>
+              <strong>오시는 방법 🧭</strong><br />
+            서울 성동구 연무장7길 13 팩토리얼 성수<br />
+            올리브영N 성수 3층으로 올라오시면<br />
+            스킨 핏 스튜디오 옆 계단을 통해서 4층으로 올라오시면 됩니다.</em>
+          </p>
+          <p className='mb-4'>
+            <strong>■ 모임주제</strong>
+          </p>
+          <ul className='pl-5 list-disc mb-4'>
+            <img src={OG_20250221_1.src} alt='20250221_1' />
+            <li>
+              발표자: <strong>윤서율</strong>님 (Cloud App Engineer @ SK C&C)
+            </li>
+            <li>
+              주제: <strong>MSA 환경에서의 로그 기반 API 관리 전략과 게이트웨이 활용</strong>
+            </li>
+          </ul>
+          <p className='mb-4'>
+          마이크로서비스 아키텍처에서 API 게이트웨이를 활용하여 엔지니어 운영자의 입맛에 맞게 로그를 수집하고 분석하는 방법을 소개합니다.
+          실제 운영 환경에서의 API 모니터링 관리 방안을 실무 사례와 함께 쉽게 이야기 합니다.
+          </p>
+          <div className='h-px bg-gray-800 my-4'/>
+          <ul className='pl-5 list-disc mb-4'>
+            <img src={OG_20250221_2.src} alt='20250221_2' />
+            <li>
+              발표자: <strong>송규동</strong>님 (System Engineer @ CJ올리브네트웍스)
+            </li>
+            <li>  
+              주제: <strong>데린이의 데이터센터 Datadog 구성하기</strong>
+            </li>
+          </ul>
+          <p className='mb-4'>
+            CJ그룹 인프라를 운영하고 있는 데이터센터에 Datadog을 활용한
+            통합 모니터링을 구성하면서 겪은 이슈와 고려사항들에 대해 이야기 해보려고 합니다.
+          </p>
+          <p className='mb-4'>■ 진행 순서</p>
+          <ul className='pl-5 mb-4'>
+            <li>18:30 ~ 19:00 - 체크인</li>
+            <li>19:00 ~ 19:10 - 모임 및 행사 소개</li>
+            <li>19:10 ~ 19:40 - 세션 1</li>
+            <li>19:40 ~ 19:50 - 세션 1 질의 응답</li>
+            <li>19:50 ~ 20:00 - 쉬는시간</li>
+            <li>20:00 ~ 20:30 - 세션 2</li>
+            <li>20:30 ~ 20:40 - 세션 2 질의 응답</li>
+            <li>20:40 - 행사 종료</li>
           </ul>
           <p className='mb-4'>■ 참가 안내</p>
           <ul className='pl-5 list-disc mb-4'>
